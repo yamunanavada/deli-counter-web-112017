@@ -6,11 +6,12 @@ def line(array)
     array.each_with_index do |name, index|
       string+= "#{index+1}: #{name}"
       if index == array.length-1
-        string+= ". "
+        string+= "."
       else
         string+= ", "
       end
     end
+    puts string
   end
-  puts string
+
 end
