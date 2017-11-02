@@ -11,5 +11,16 @@ def line(array)
     end
     puts string
   end
+end
+
+def take_a_number(array, name)
+
+  if array.length == 0
+    array.push(name)
+    puts "Hello, #{name}. You are number 1 in line."
+  else
+    array.push(name)
+    puts "Hello, #{name}. You are currently number #{position} in line."
+  end
 
 end
