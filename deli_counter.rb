@@ -8,7 +8,7 @@ def line(array)
       if index == array.length-1
         string+= "."
       else
-        string+= ", "
+        string+= " "
       end
     end
     puts string
